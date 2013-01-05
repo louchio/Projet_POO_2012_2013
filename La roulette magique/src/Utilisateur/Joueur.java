@@ -25,7 +25,6 @@ public class Joueur {
 	public void setcpt(Compte cpt) {
 		this.cpt = cpt;
 	}
-
 	
 	//public void miser(Jeton j)
 }

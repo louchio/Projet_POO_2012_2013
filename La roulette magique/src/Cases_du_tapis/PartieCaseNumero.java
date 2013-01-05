@@ -8,7 +8,6 @@ public class PartieCaseNumero{
 	private int mise;
 
 	public PartieCaseNumero(Color couleur, int coef_multiplicateur, int mise) {
-		super();
 		this.couleur = couleur;
 		this.coef_multiplicateur = coef_multiplicateur;
 		this.mise = mise;
