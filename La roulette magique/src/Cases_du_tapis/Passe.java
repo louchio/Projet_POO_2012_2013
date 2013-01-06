@@ -1,10 +1,17 @@
 package Cases_du_tapis;
 
+import java.awt.Color;
+
 public class Passe extends Mise{
 	private int liste_passe[];
 	
-	public Passe(int coef, int mise) {
-		super(coef, mise);
+	public Passe(int coef, Color couleur) {
+		super(coef, couleur);
+		// initialiser liste passe
+	}
+	
+	public Passe(int coef, int mise, Color couleur) {
+		super(coef, mise, couleur);
 		// initialiser liste passe
 	}
 
