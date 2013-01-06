@@ -16,13 +16,9 @@ public class Compte{
 	}
 	
 	
-	public void ajouter()
+	public void majSolde(int solde)
 	{
-		
+		this.solde += solde;
 	}
 
-	public void retirer()
-	{
-		
-	}
 }
