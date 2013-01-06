@@ -11,7 +11,6 @@ public class Roue {
 	/* Constructeur */
 	
 	public Roue(int nb_Billes, Vitesse vit, Bille[] liste_bille, Tapis tapis) {
-		super();
 		this.nb_Billes = nb_Billes;
 		this.vit = vit;
 		this.liste_bille = liste_bille;
@@ -58,7 +57,7 @@ public class Roue {
 
 	public void tourner()
 	{
-		// vitesse = 10 ; //...
+		vit = new Vitesse(10);
 	}	
 	
 }

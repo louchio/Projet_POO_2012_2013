@@ -15,10 +15,9 @@ public class Tapis {
 		this.roue = roue;
 		this.nbre_cases = nbre_cases;
 		// ........................
-		// créer les cases... (avec les couleurs..)
+		// créer les cases(numeros) (avec les couleurs..)
 		// et remplire liste_numeros
 		// manque, passe.. 
-		
 		
 	}
 
