@@ -3,7 +3,7 @@ package cases_du_tapis;
 import java.awt.Color;
 
 public class Mise {
-	private int coef_multiplicateur;
+	private float coef_multiplicateur;
 	private int mise;
 	private Color couleur; // la couleur de la case sur laquelle on mise..
 	
@@ -23,11 +23,11 @@ public class Mise {
 	}
 
 	
-	public int getCoef_multiplicateur() {
+	public float getCoef_multiplicateur() {
 		return coef_multiplicateur;
 	}
 
-	public void setCoef_multiplicateur(int coef_multiplicateur) {
+	public void setCoef_multiplicateur(float coef_multiplicateur) {
 		this.coef_multiplicateur = coef_multiplicateur;
 	}
 
