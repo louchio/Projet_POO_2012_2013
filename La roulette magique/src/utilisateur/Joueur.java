@@ -1,4 +1,4 @@
-package Utilisateur;
+package utilisateur;
 
 public class Joueur {
 	private String nom;

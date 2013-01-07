@@ -1,6 +1,6 @@
-package Materiels;
+package materiels;
 
-import Cases_du_tapis.*;
+import cases_du_tapis.*;
 
 public class Tapis {
 	private Roue roue;

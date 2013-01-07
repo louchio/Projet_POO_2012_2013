@@ -1,4 +1,4 @@
-package Cases_du_tapis;
+package cases_du_tapis;
 
 import java.awt.Color;
 

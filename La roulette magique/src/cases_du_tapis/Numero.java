@@ -1,6 +1,6 @@
-package Cases_du_tapis;
+package cases_du_tapis;
 
-import Materiels.Tapis;
+import materiels.Tapis;
 
 public class Numero{
 	private int numero;

@@ -1,4 +1,4 @@
-package Materiels;
+package materiels;
 
 import vitesse.Vitesse;
 
