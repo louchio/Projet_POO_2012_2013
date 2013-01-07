@@ -19,11 +19,11 @@ public class Pair extends Mise{
 		// initialiser liste pair
 	}
 	
-	public int[] getListe_pair() {
+	public ArrayList getListe_pair() {
 		return liste_pair;
 	}
 
-	public void setListe_pair(int[] liste_pair) {
+	public void setListe_pair(ArrayList liste_pair) {
 		this.liste_pair = liste_pair;
 	}
 
