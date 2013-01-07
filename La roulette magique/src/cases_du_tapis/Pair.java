@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.util.ArrayList;
 
 public class Pair extends Mise{
-	private ArrayList liste_pair;
+	private ArrayList<Integer> liste_pair;
 	
 	public Pair(int coef, Color couleur) {
 		super(coef, couleur);
@@ -19,11 +19,11 @@ public class Pair extends Mise{
 		// initialiser liste pair
 	}
 	
-	public ArrayList getListe_pair() {
-		return liste_pair;
+	public ArrayList<Integer> getListe_pair() {
+		return (ArrayList<Integer>) liste_pair;
 	}
 
-	public void setListe_pair(ArrayList liste_pair) {
+	public void setListe_pair(ArrayList<Integer> liste_pair) {
 		this.liste_pair = liste_pair;
 	}
 
