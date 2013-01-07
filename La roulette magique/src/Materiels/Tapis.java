@@ -1,4 +1,4 @@
-package Matériels;
+package Materiels;
 
 import Cases_du_tapis.*;
 
