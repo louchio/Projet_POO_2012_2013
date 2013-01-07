@@ -1,13 +1,17 @@
 package cases_du_tapis;
 
 import java.awt.Color;
+import java.util.ArrayList;
 
 public class Pair extends Mise{
-	private int liste_pair[];
+	private ArrayList liste_pair;
 	
 	public Pair(int coef, Color couleur) {
 		super(coef, couleur);
-		// initialiser liste pair
+		liste_pair = new ArrayList<Integer>();
+		for(int i=2; i<=36; i=i+2){
+			liste_pair.add(i);
+		}
 	}
 
 	public Pair(int coef, int mise, Color couleur) {
