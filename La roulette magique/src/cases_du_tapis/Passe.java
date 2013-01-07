@@ -26,8 +26,8 @@ public class Passe extends Mise implements Liste{
 
 	public void initialiserListe(ArrayList<Integer> l) {
 		liste_passe = new ArrayList<Integer>();
-		int i = 0;
-		while(i<19)
+		int i = 19;
+		while(i<37)
 		{
 			liste_passe.add(i);
 		}
