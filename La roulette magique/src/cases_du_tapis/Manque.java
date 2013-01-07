@@ -8,11 +8,12 @@ public class Manque extends Mise implements Liste{
 	
 	public Manque(int coef, Color couleur) {
 		super(coef, couleur);
-		// initialiser liste pair
+		initialiserListe(liste_manque);
 	}
 
 	public Manque(int coef, int mise, Color couleur) {
 		super(coef, mise, couleur);
+		initialiserListe(liste_manque);
 	}	
 	
 	
@@ -30,6 +31,7 @@ public class Manque extends Mise implements Liste{
 		while(i<19)
 		{
 			liste_manque.add(i);
+			i++;
 		}
 	}
 	

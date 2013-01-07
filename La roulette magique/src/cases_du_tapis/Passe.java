@@ -8,12 +8,12 @@ public class Passe extends Mise implements Liste{
 	
 	public Passe(int coef, Color couleur) {
 		super(coef, couleur);
-		// initialiser liste passe
+		initialiserListe(liste_passe);
 	}
 	
 	public Passe(int coef, int mise, Color couleur) {
 		super(coef, mise, couleur);
-		// initialiser liste passe
+		initialiserListe(liste_passe);
 	}
 
 	public ArrayList<Integer> getListe_passe() {
@@ -30,6 +30,7 @@ public class Passe extends Mise implements Liste{
 		while(i<37)
 		{
 			liste_passe.add(i);
+			i++;
 		}
 		
 	}
