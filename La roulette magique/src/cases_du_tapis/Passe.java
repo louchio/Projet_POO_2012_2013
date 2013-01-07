@@ -1,9 +1,10 @@
 package cases_du_tapis;
 
 import java.awt.Color;
+import java.util.ArrayList;
 
-public class Passe extends Mise{
-	private int liste_passe[];
+public class Passe extends Mise implements Liste{
+	private ArrayList<Integer> liste_passe;
 	
 	public Passe(int coef, Color couleur) {
 		super(coef, couleur);
@@ -15,14 +16,21 @@ public class Passe extends Mise{
 		// initialiser liste passe
 	}
 
-	public int[] getListe_passe() {
+	public ArrayList<Integer> getListe_passe() {
 		return liste_passe;
 	}
 
-	public void setListe_passe(int[] liste_passe) {
+	public void setListe_passe(ArrayList<Integer> liste_passe) {
 		this.liste_passe = liste_passe;
 	}
-	
-	
 
+	public void initialiserListe(ArrayList<Integer> l) {
+		liste_passe = new ArrayList<Integer>();
+		int i = 0;
+		while(i<19)
+		{
+			liste_passe.add(i);
+		}
+		
+	}
 }
